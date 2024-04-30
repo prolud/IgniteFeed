@@ -1,0 +1,16 @@
+.header {
+  background-color: #202024;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.header img {
+  height: 65px;
+}
+
+.header strong {
+  font-size: 25px; 
+}
