@@ -1,11 +1,10 @@
 import styles from "./Header.module.css"
-import freeIcon from "./free-icon.svg"
+import freeIcon from "../../assets/ignite-logo.svg"
 
 export function Header() {
   return (
     <header className={styles.header}>
-      <img src={freeIcon} alt="" />
-      <strong>Ignite Feed</strong>
+      <img src={freeIcon} alt="Ignite Logo" />
     </header>
   )
 }

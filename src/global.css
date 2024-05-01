@@ -12,16 +12,21 @@
   --green-500: #00875f;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 * {
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
 }
 
 body {
   background-color: var(--gray-900);
   color: var(--gray-300);
+  -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
 }
