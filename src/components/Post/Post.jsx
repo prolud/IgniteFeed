@@ -6,8 +6,8 @@ export function Post(props) {
       <div className={styles.postHeader}>
         <img src={props.imageSrc} />
         <div className={styles.authorInformations}>
-          <h5>{props.author}</h5>
-          <h6>{props.authorRole}</h6>
+          <strong>{props.author}</strong>
+          <span>{props.authorRole}</span>
         </div>
       </div>
       <p>{props.text}</p>
