@@ -1,18 +1,71 @@
 .post {
     background-color: var(--gray-800);
-    padding: 1rem;
     border-radius: 8px;
+    padding: 2.5rem;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 2rem;
+}
+
+.postContent {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.postContent > p{
+    line-height: 1.6;
+    color: var(--gray-300);
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--gray-600);
+}
+
+.commentForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.commentForm textarea {
+    width: 100%;
+    background-color: var(--gray-900);
+    border-radius: 8px;
+    border: none;
+    padding: 1rem;
+    color: var(--gray-300);
+    height: 6rem;
+    display: flex;
+    justify-content: flex-start;
+    resize: none;
+}
+
+.commentForm button {
+    width: 6.76rem;
+    height: 3.06rem;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--green-500);
+    color: var(--white);
+    transition: all 0.15s;
+}
+
+.commentForm button:hover {
+    cursor: pointer;
+    background-color: var(--green-300);
 }
 
 .postHeader {
     display: flex;
     gap: 20px;
     align-items: center;
+    justify-content: space-between;
 }
 
+.postHeader time {
+    font-size: 0.85rem;
+    color: var(--gray-400);
+}
 
 .postHeader img {
     height: 3rem;
@@ -20,15 +73,23 @@
     border-radius: 10px;
     border: var(--green-500) 2px solid;
     padding: 2px;
-    background-color: var(--gray-800);
+    background-color: transparent;
 }
 
-.postHeader .authorInformations {
+.authorProfile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.authorNames {
     cursor: default;
     display: flex;
     flex-direction: column;
 }
 
-.postHeader .authorInformations span {
+.authorNames span {
+    font-size: 0.85rem;
     color: var(--gray-400);
 }
+
