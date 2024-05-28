@@ -23,7 +23,7 @@ export function Post(props) {
         </form>
       </div>
       <Comment
-        authorIcon="https://media-gru1-2.cdn.whatsapp.net/v/t61.24694-24/425528047_1848686455603069_2559935554204755996_n.jpg?ccb=11-4&oh=01_Q5AaIJYpETKzxw9igrUaXOnLxwhVgcsDRBAqUzlml-4IGQNV&oe=66462F95&_nc_sid=e6ed6c&_nc_cat=106"
+        authorIcon="https://media-gru1-2.cdn.whatsapp.net/v/t61.24694-24/425528047_1848686455603069_2559935554204755996_n.jpg?ccb=11-4&oh=01_Q5AaIHubWoCD7_ydlb5UgqTmeWejA-sZOVgocl2biirTQ3d2&oe=6661DF15&_nc_sid=e6ed6c&_nc_cat=106"
         authorName="Kauany Cartelli"
         commentText="Meu noivo é o melhor! eu te amooo ❤️"
         likes={3552}
